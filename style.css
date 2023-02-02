@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+.game-container {
+    display: flex;
+    width: 800px;
+}
+
+.button {
+    min-height: 200px;
+}
