@@ -1,4 +1,10 @@
-.grid {
+.info-block {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+
+.game-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -6,9 +12,12 @@
 
 .game-container {
     display: flex;
-    width: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
-.button {
-    min-height: 200px;
+button {
+    min-height: 10rem;
+    min-width: 10rem;
+    font-size: 6rem;
 }
