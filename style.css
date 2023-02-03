@@ -20,4 +20,15 @@ button {
     min-height: 10rem;
     min-width: 10rem;
     font-size: 6rem;
+    border: solid black 2px;
+}
+
+button:enabled:hover {
+    background-color: rgb(222, 222, 245);
+    color: grey;
+}
+
+button:disabled
+{
+    color: black;
 }
