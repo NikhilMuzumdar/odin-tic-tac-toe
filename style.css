@@ -6,7 +6,7 @@
     margin: 3px;
 }
 
-progress {
+#game-progress {
     min-width: 30%;
 }
 
